@@ -23,7 +23,7 @@ public class Categoria {
 
 	public void setIva(double iva) throws ProductoException {
 		if (iva <0) {
-			throw new ProductoException("Error el iva no puede ser negativo");
+			throw new ProductoException("Error el iva no puede ser negativorwrwrw");
 		}
 		this.iva = iva;
 	}
